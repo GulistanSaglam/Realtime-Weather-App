@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 103, 226); 
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+
+#card {
+    width: 425px;
+    /* height: 200px; */
+    background-color: beige;
+    border-radius: 20px;
+    padding: 20px 20px;
+} 
+
+#card #screen{
+    display: grid;
+    gap: 15px;
+}
+
+#card h3 {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style:solid;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgb(15, 23, 140);
+    color: rgb(8, 15, 114);
+}
+
+#card  textarea {
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 0.9em;
+    color: rgb(22, 24, 51);
+    text-align:justify;
+}
+
+
+#card button{
+    padding: 10px 0;
+    background-color:rgb(250, 103, 226); 
+    border: none;
+    border-radius: 8px;
+    color: rgb(255,255,255);
+    font-size: 0.9em;
+}
+
+#card  button:hover {
+    background-color:rgb(248, 64, 217);
+}
+
+#card  button:active {
+    background-color:rgb(248, 83, 220);
+}
+
+
+ /* Result */
+
+#card #result {
+    font-weight: 400;
+    font-size: 1em;
+    font-style: italic;
+    padding: 10px 10px;
+    color: rgb(8, 15, 114);
+    text-align: center;
+}
+
+
+
+
+
+
+
